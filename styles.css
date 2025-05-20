@@ -1,4 +1,159 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 16px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.section-1 p{
+    font-size: 18px;
+    overflow-wrap: break-word;
+    margin-top: 8px;
+}
+
+.section-1 img{
+    max-width: 500px;
+    max-height: 280px;
+}
+
+.greetings-container{
+    width: 500px;
+    text-wrap: wrap;
+    flex: 0 1 auto;
+    margin-right: 32px;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: #bb0a1e;
+    border: 2px solid #2e0001;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-container{
+    display: flex;
+}
+
+.block{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
 .block img{
     width: 200px;
     height: 200px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.section-3{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.quote{
+    width: 1000px;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.quote em{
+    margin-bottom: 0;
+}
+
+.quote strong{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+}
+
+.action-container{
+    display: flex;
+    background-color: #bb0a1e;
+    color: white;
+    max-width: 1000px;
+    margin: 96px 0;
+    padding: 32px 64px;
+    border-radius: 8px;
+    gap: 64px;
+}
+
+.action-container button{
+    border: 2px solid white;
+    color: white;
+}
+
+.call-text strong{
+    font-size: 24px;
+}
+.call-text p{
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
 }
